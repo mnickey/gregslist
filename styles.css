@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 80px;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Header Styles */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/* Nav bar styles */
+.top-nav {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nav-link {
+    font-size: 18px;
+    padding: 0 6px;
+}
+
+/* a tag (link) styles */
+a {
+    text-decoration: none;
+}
+
+.top a {
+    float: right;
+    padding-left: 10px;
+}
+
+.top a:after {
+    content: " | ";
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.rl-logo {
+    display: inline-block;
+    border-radius: 100%;
+    font-weight: 800;
+}
+
+.rl-logo h1 {
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+/* Search box sryles */
+.search-section {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.search-section input {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    padding: 0 5px 0 8px;
+    width: 400px;
+}
+
+.search-section button {
+    font-size: 17px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+
+.search-button {
+    vertical-align: bottom;
+}
+
+.star-icon, .magnifying-glass-icon {
+    height: 100%;
+}
+
+/* Pagination */
+.pagination {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 30px;
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+}
+
+.pages-button {
+    font-size: 16px;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 3px;
+}
+
+.pages-display {
+    font-size: 16px;
+    padding: 0 30px;
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+}
+
+/* Results */
+.results {
+    padding: 0;
+}
+
+.result {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.result-date,
+.location {
+    color: #999;
+}
+
+.result-title {
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
